@@ -14,8 +14,8 @@ jobs:
       with:
         args: --acl public-read --follow-symlinks --delete --exclude '.git*/*'
       env:
-        AWS_S3_BUCKET: cesar-herrera-demo-s3
-        AWS_ACCESS_KEY_ID: AKIARUQAAQE6TINMAHWE
-        AWS_SECRET_ACCESS_KEY: 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
-        AWS_REGION: us-east-1   # optional: defaults to us-east-1
+        AWS_S3_BUCKET: 'cesar-herrera-demo-s3'
+        AWS_ACCESS_KEY_ID: 'AKIARUQAAQE6TINMAHWE'
+        AWS_SECRET_ACCESS_KEY: '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'
+        AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
         #SOURCE_DIR: 'public'      # optional: defaults to entire repository
