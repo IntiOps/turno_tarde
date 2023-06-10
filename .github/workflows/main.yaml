@@ -1,4 +1,4 @@
-name: S3 Upload Test
+name: S3 Upload MuniLima Test
 
 on:
   push:
@@ -14,8 +14,8 @@ jobs:
       with:
         args: --acl public-read --follow-symlinks --delete --exclude '.git*/*'
       env:
-        AWS_S3_BUCKET: 'cesar-herrera-demo-s3'
-        AWS_ACCESS_KEY_ID: 'AKIARUQAAQE6TINMAHWE'
-        AWS_SECRET_ACCESS_KEY: '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'
+        AWS_S3_BUCKET: 'munilima18mayo'
+        AWS_ACCESS_KEY_ID: 'AKIAZBSJAV3SABBM7WG4'
+        AWS_SECRET_ACCESS_KEY: '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'
         AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
         #SOURCE_DIR: 'public'      # optional: defaults to entire repository
